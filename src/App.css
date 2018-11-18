@@ -16,11 +16,11 @@ h1#window-size {
 
 
 body {
-  font-family: 'Raleway', Raleway, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  color: #111111;
-  line-height: 1.4;
+  font-family: 'Raleway', Raleway, Arial, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  color: #111111 !important;
+  line-height: 1.4 !important;
 }
 
 h1 {
@@ -67,24 +67,24 @@ header {
 }
 
 nav {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  right: 0;
-  font-size: 1.25em;
-  text-transform: lowercase;
-  text-align: center;
-  color: #222222;
+  position: absolute !important;
+  width: 100% !important;
+  top: 0 !important;
+  right: 0 !important;
+  font-size: 1.25em !important;
+  text-transform: lowercase !important;
+  text-align: center !important;
+  color: #222222 !important;
 }
 
 nav a {
-  display: inline-block;
-  margin: .5em 2%;
-  padding-bottom: .125em;
+  display: inline-block !important;
+  margin: .5em 2% !important;
+  padding-bottom: .125em !important;
 }
 
 nav a:hover, nav a.current {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid !important;
 }
 
 #mobile {
@@ -282,5 +282,22 @@ textarea {
   .thumbnail {
     width: 98%;
   }
+}
+
+.moreHomeCards, .moreThings{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.otherHomes, .otherThings {
+  display: inline-flex;
+}
+
+
+.manyHomes, .manyThings {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 30px;
+
 }
 

@@ -1,26 +1,48 @@
 import React, {Component} from 'react';
+import { Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button } from 'reactstrap';
 
-class Projects extends Component {
-  render() {
-    return (
-      <div>
-      <h2>PROJECTS</h2>
-      <div class="projects" >
-        <img id="project1" src="images/comeback.png" alt="Come Back Barack Game">
-       </div>
-       <div class="projects">Unit 2</div>
-      <div class="projects">Unit 3</div>
-      <div class="projects">Unit 4</div>
+const Projects = (props) => {
+  return (
+    <div className="otherHomes">
+      <Card className="moreHomeCards">
+        <CardImg src="https://smcurrey528.github.io/portfolio/images/comeback.png" title="source: imgur.com" />
+        <CardBody>
+          <CardTitle>Javascript, HTML, and CSS Game</CardTitle>
+          <CardSubtitle>Come Back Barack</CardSubtitle>
+          <CardText>This is a Javascript game where the user needs to power up Obama with liberal snowflakes.</CardText>
+        </CardBody>
+      </Card>
 
+       <Card className="moreHomeCards">
+        <CardImg src="https://i.imgur.com/9FVsgNl.png" title="source: imgur.com" />
+        <CardBody>
+          <CardTitle>React.js, Node.js, Express, JavaScript</CardTitle>
+          <CardSubtitle>Rebuilding AirBNB</CardSubtitle>
+          <CardText>xxxxxxxxxxx</CardText>
+        </CardBody>
+      </Card>
 
-      <h2>Blog Posts</h2>
-      <a href="https://medium.com/@sarah.currey/https-medium-com-sarah-currey-5-tips-to-surviving-your-first-week-at-a-coding-bootcamp-d1e1a9021dba">5 Tips for Surviving your First Week at a Coding Bootcamp</a>
-      <hr/>
-      <a href="https://medium.com/@sarah.currey/how-i-built-my-first-obama-themed-javascript-game-b06f7c62af4c">How I Built My First (Obama Themed) JavaScript Game</a>
+      <Card className="moreHomeCards">
+        <CardImg src="https://i.imgur.com/yxCvhFEl.png" title="source: imgur.com" />
+        <CardBody>
+          <CardTitle>React.js, REST API, Javascript</CardTitle>
+          <CardSubtitle>QualLi, Quality of Life API App</CardSubtitle>
+          <CardText>XXXXXXXXX</CardText>
+        </CardBody>
+      </Card>
 
-      </div>
-      )
-  }
-}
+      <Card className="moreHomeCards">
+        <CardImg src="https://i.imgur.com/9FVsgNl.png" title="source: imgur.com" />
+        <CardBody>
+          <CardTitle>Coming Soon</CardTitle>
+          <CardSubtitle> Content here</CardSubtitle>
+          <CardText>Content here</CardText>
+        </CardBody>
+      </Card>
+    </div>
+  );
+};
+
 
 export default Projects;
