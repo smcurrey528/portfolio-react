@@ -4,6 +4,8 @@ import { Card, CardImg, CardText, CardBody,
 
 const Projects = (props) => {
   return (
+   <div>
+    <h1> Projects </h1>
     <div className="otherHomes">
       <Card className="moreHomeCards">
         <CardImg src="https://smcurrey528.github.io/portfolio/images/comeback.png" title="source: imgur.com" />
@@ -41,6 +43,7 @@ const Projects = (props) => {
         </CardBody>
       </Card>
     </div>
+   </div>
   );
 };
 
