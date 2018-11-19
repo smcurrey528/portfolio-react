@@ -5,14 +5,15 @@ import { Card, CardImg, CardText, CardBody,
 const Projects = (props) => {
   return (
    <div>
-    <h1> Projects </h1>
+    <h1 className="headProjects"> Projects </h1>
     <div className="otherHomes">
       <Card className="moreHomeCards">
-        <CardImg src="https://smcurrey528.github.io/portfolio/images/comeback.png" title="source: imgur.com" />
+        <CardImg className="CardImg" src="https://smcurrey528.github.io/portfolio/images/comeback.png" title="source: imgur.com" />
         <CardBody>
           <CardTitle>Javascript, HTML, and CSS Game</CardTitle>
           <CardSubtitle>Come Back Barack</CardSubtitle>
           <CardText>This is a Javascript game where the user needs to power up Obama with liberal snowflakes.</CardText>
+          <a href="https://pages.git.generalassemb.ly/smcurrey528/come-back-barack/play.html"  />
         </CardBody>
       </Card>
 
@@ -35,7 +36,7 @@ const Projects = (props) => {
       </Card>
 
       <Card className="moreHomeCards">
-        <CardImg src="https://i.imgur.com/9FVsgNl.png" title="source: imgur.com" />
+        <CardImg src="http://www.vignobleschatonnet.com/wp-content/uploads/2018/08/logo-amazon.png" title="source: imgur.com" />
         <CardBody>
           <CardTitle>Coming Soon</CardTitle>
           <CardSubtitle> Content here</CardSubtitle>
