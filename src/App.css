@@ -180,6 +180,7 @@ section {
   background-color: #1364b9;
   border: 5px solid;
   padding: 30px;
+
 }
 
 footer p {
@@ -233,8 +234,27 @@ textarea {
   overflow: hidden;
   animation: move 20s linear infinite;
 
+}
+.map {
+
 
 }
+
+.contactMe {
+  display: inline-flex;
+}
+
+.hola {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.seeking {
+  padding-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /*background animation to change the position*/
 @keyframes move {
   0% {
@@ -337,7 +357,7 @@ textarea {
 
 .moreHomeCards, .moreThings{
   width: 300px;
-  height: 500px;
+  height: 700px;
   margin: 20px;
 }
 
