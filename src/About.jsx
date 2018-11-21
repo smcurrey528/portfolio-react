@@ -17,19 +17,19 @@ class About extends Component {
   <table>
     <tr>
       <td>
-        <img id="dancer" src="/images/dancer2.svg" alt="dancer"/>
+        <img id="dancer" src='https://i.imgur.com/IoZU7QM.png' alt="dancer" />
       </td>
       <td>
-        <img id="foodie" src="images/426275-200.png" alt="foodie"/>
+        <img id="foodie" src="https://i.imgur.com/PaNwHPw.png" alt="foodie"/>
       </td>
       <td>
-        <img id="nashville" src="images/106on.png" alt="nashville"/>
+        <img id="nashville" src="https://i.imgur.com/t5hqGiP.png" alt="nashville"/>
       </td>
       <td>
-        <img id="cyclist" src="images/1229px-Bicycle-icon.svg.png" alt="cyclist"/>
+        <img id="cyclist" src="https://i.imgur.com/TtN7c9Q.png" alt="cyclist"/>
       </td>
       <td>
-        <img id="world" src="images/globe.png" alt="world traveler"/>
+        <img id="world" src="https://i.imgur.com/4GmkVHy.png" alt="world traveler"/>
       </td>
     </tr>
     <tr>
